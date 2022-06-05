@@ -79,6 +79,7 @@ namespace l1
 
 	Txt::~Txt()
 	{
-		
+		if(this->strs != nullptr)
+			delete[]strs;
 	}
 }
